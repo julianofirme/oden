@@ -1,0 +1,1 @@
+await file.write('./log.txt', 'hi')

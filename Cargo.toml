@@ -1,0 +1,11 @@
+[package]
+name = "odenjs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+deno_ast = { version = "0.42", features = ["transpiling"] }
+deno_core = "0.319.0"
+lazy_static = "1.5.0"
+reqwest = "0.12.9"
+tokio = { version = "1.41.1", features = ["full"] }
